@@ -1,0 +1,13 @@
+   0 touch /home/file.txt && date > /home/file.txt
+   1 cat /home/file.txt
+   2 df -h / >> /home/file.txt
+   3 history | tail -n 5 >> /home/file.txt
+   4 cat /proc/cpuinfo | grep "vendor" | >> /home/file.txt
+   5 cat /home/file.txt
+   6 grep "vendor" /proc/cpuinfo >> /home/file.txt
+   7 cat /home/file.txt
+   8 vi /home/file.txt
+   9 cat /home/file.txt
+  10 ps -ef | wc -l >> /home/file.txt
+  11 cat /home/file.txt
+  12 history > history.txt
